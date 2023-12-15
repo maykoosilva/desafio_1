@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+body
+    {
+        background-color: rgb(100, 99, 99);
+        background-image: url(../imagens/cev-landscape.jpg);
+        background-position: center bottom;
+    }

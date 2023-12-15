@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+*
+    {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+html, body
+    {
+        font-size: 62.5%;
+        width: 100vw;
+        height: 100vh;
+        background-color: black;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+h1, h2
+    {
+        color: aliceblue;
+    }
