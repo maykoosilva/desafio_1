@@ -1,7 +1,8 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 375px) and (max-width: 768px)
+@media screen and (min-width: 360px) and (max-width: 413px)
     {
+        
         .area-text-right
             {
                 width: 30rem;
@@ -37,7 +38,38 @@
             }
     }
 
-@media screen and (min-width:769px) and (max-width:992px)
+@media screen and (min-width:414px) and (max-width:767px)
     {
+        .area-text-right
+        {
+            width: 30rem;
+            height: 58rem;
+            background-color: #f0f8ffa6;
+            position: relative;
+            top: 3rem;
+            left: calc(100vw - 31rem);
+            padding: 1rem;
+            border-radius: 5rem;
+        }
+    .area-text-left
+        {
+            width: 30rem;
+            height: 58rem;
+            background-color: rgba(240, 248, 255, 0.651);
+            position: relative;
+            top: 2rem;
+            left: 1rem;
+            padding: 1rem;
+            border-radius: 5rem;
+        }
+    h1
+        {
+            font-size: 3rem;
+            text-align: center;
+        }
 
+    .btn
+        {
+            margin-top: 5rem;
+        }
     }
