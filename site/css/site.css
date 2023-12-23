@@ -171,6 +171,7 @@ section
         top: 2rem;
         left: calc(100vw - 43rem);
         padding: 1rem;
+        border-radius: 5rem;
     }
 
 .area-text-left
@@ -182,6 +183,7 @@ section
         top: 2rem;
         left: 1rem;
         padding: 1rem;
+        border-radius: 5rem;
     }
 
 h1
