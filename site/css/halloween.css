@@ -107,7 +107,6 @@ section
     {
         height: 30rem;
         width: 100%;
-        border: 2px red solid;
         background-repeat: no-repeat;
         background-size: cover;
         display: flex;
