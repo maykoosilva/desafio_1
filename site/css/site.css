@@ -92,6 +92,7 @@ header
         justify-content: space-between;
         height: 100vh;
         margin-top: 2rem;
+        padding: 1rem;
     }
 
 #menu-mobile li
@@ -117,6 +118,12 @@ header
         scroll-snap-type: y mandatory;
         overflow: scroll;
         overflow-x: hidden;
+    }
+
+a
+    {
+        text-decoration: none;
+        color: aliceblue;
     }
 
 section

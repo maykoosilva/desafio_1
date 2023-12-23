@@ -1,0 +1,185 @@
+@charset "UTF-8";
+
+*
+    {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    :root
+    {
+        font-size: 62.5%;
+    } 
+
+html
+    {
+        height: 100vh;
+    }
+
+header
+    {
+        background-color: black;
+        font-size: 1.6rem;
+        height: 6rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        box-shadow: 0.2rem 0.2rem 1.5rem black;
+        position: fixed;  /* Adicione esta linha para tornar o header fixo */
+        top: 0;          /* Posicione o header no topo da tela */
+        left: 0;
+        width: 100%;     /* Garanta que a largura seja de 100% */
+        z-index: 1000; 
+    }
+
+#logo
+    {
+        border-radius: 1rem;
+    }
+
+#logo-titulo
+    {
+        color: aliceblue;
+        font-size: 1.8rem;
+    }
+
+.material-symbols-outlined
+    {
+        color: aliceblue;
+        cursor: pointer;
+        padding: 1rem;
+    }
+
+.material-symbols-outlined:hover
+    {
+        color: #e08720;
+    }
+
+#menu-mobile
+    {
+        background-color: rgba(0, 0, 0, 0.63);
+        backdrop-filter: blur(1rem);
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-top: 6rem;
+        width: 100vw;
+        height: 0;
+        visibility: hidden;
+        transition: 0.5s;
+        overflow: hidden;
+    }
+
+#menu-mobile.abrir
+    {
+        visibility: visible;
+        height: 100vh;
+    }
+
+#menu-mobile ul
+    {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 100vh;
+        margin-top: 2rem;
+    }
+
+#menu-mobile li
+    {
+        color:aliceblue;
+        border-bottom: 0.2rem aliceblue solid;
+        text-align: center;
+        width: 15.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+#menu-mobile li:hover
+    {
+        color: #e08720;
+        border-bottom: 0.2rem #e08720 solid;
+    }
+
+a
+    {
+        text-decoration: none;
+        color: aliceblue;
+    }
+
+section
+    {
+        height: 30rem;
+        width: 100%;
+        border: 2px red solid;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        background-attachment: fixed;
+    }
+
+section:nth-of-type(1)
+    {
+        margin-top: 6rem;
+        background-image: url(../img/site/halloween2.jpg);
+        background-position: bottom center;
+        height: calc(100vh - 6rem);
+        display: flex;
+        align-items: center;
+    }
+
+section:nth-of-type(2)
+    {
+        background-image: url(../img/site/celta.jpg);
+        height: calc(100vh - 6rem);
+        display: flex;
+        align-items: center;
+    }
+
+section:nth-of-type(3)
+    {
+        background-image: url(../img/site/cristianismo.jpg);
+        height: calc(100vh - 6rem);
+        display: flex;
+        align-items: center;
+    }
+
+section:nth-of-type(4)
+    {
+        background-image: url(../img/site/imigracao.jpg);
+        height: calc(100vh - 6rem);
+        display: flex;
+        align-items: center;
+    }
+
+section:nth-of-type(5)
+    {
+        background-image: url(../img/site/festa2.jpg);
+        height: calc(100vh - 6rem);
+        display: flex;
+        align-items: center;
+    }
+
+h1
+    {
+        font-size: 3rem;
+        text-align: center;
+        margin: 1rem 0rem 1rem 0rem;
+        color: aliceblue;
+    }
+
+p
+    {
+        font-size: 1.6rem;
+        line-height: 3rem;
+        text-align: justify;
+        text-indent: 3rem;
+        width: 60rem;
+        background-color: rgba(240, 248, 255, 0.815);
+        margin: auto;
+        border-radius: 2.5rem;
+        padding: 1rem;
+    }
