@@ -103,12 +103,6 @@ header
         border-bottom: 0.2rem #e08720 solid;
     }
 
-a
-    {
-        text-decoration: none;
-        color: aliceblue;
-    }
-
 section
     {
         height: 30rem;
