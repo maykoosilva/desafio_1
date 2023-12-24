@@ -1,77 +1,53 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 360px) and (max-width: 767px)
+@media screen and (min-width: 280px) and (max-width: 359px)
     {
-        section
-        {
-            height: 30rem;
-            width: 100%;
-            background-repeat: no-repeat;
-            background-size: cover;
-            display: flex;
-            align-items: center;
-            background-attachment: fixed;
-        }
-
-        section:nth-of-type(1)
-        {
-            margin-top: 6rem;
-            background-image: url(../img/site/halloween2.jpg);
-            background-position: center center;
-            height: calc(100vh - 6rem);
-            display: flex;
-            align-items: center;
-        }
-
-        section:nth-of-type(2)
-        {
-            background-image: url(../img/site/celta.jpg);
-            background-position: center;
-            height: calc(100vh - 6rem);
-            display: flex;
-            align-items: center;
-        }
-
-        section:nth-of-type(3)
-        {
-            background-image: url(../img/site/cristianismo.jpg);
-            background-position: center;
-            height: calc(100vh - 6rem);
-            display: flex;
-            align-items: center;
-        }
-
-        section:nth-of-type(4)
-        {
-            background-image: url(../img/site/imigracao.jpg);
-            height: calc(100vh - 6rem);
-            display: flex;
-            align-items: center;
-        }
-
-        section:nth-of-type(5)
-        {
-            background-image: url(../img/site/festa2.jpg);
-            height: calc(100vh - 6rem);
-            display: flex;
-            align-items: center;
-        }
-
-        h1
-        {
-            font-size: 3rem;
-            text-align: center;
-            margin: 1rem 0rem 1rem 0rem;
-            color: aliceblue;
-        }
-
         p
         {
             font-size: 1.6rem;
             line-height: 3rem;
             text-align: justify;
             text-indent: 3rem;
+            width: 25rem;
+            background-color: rgba(240, 248, 255, 0.815);
+            margin: auto;
+            border-radius: 2.5rem;
+            padding: 1rem;
+        }
+    }
+
+@media screen and (min-width: 360px) and (max-width: 767px)
+    {
+        section:nth-of-type(1)
+        {
+            background-position: center center;
+        }
+
+        section:nth-of-type(2)
+        {
+            background-position: center;
+        }
+
+        section:nth-of-type(3)
+        {
+            background-position: center;
+        }
+
+        p
+        {
             width: 32rem;
+        }
+    }
+
+@media screen and (orientation:landscape)
+    {
+        p
+        {
+            font-size: 1.6rem;
+            line-height: 3rem;
+            text-align: justify;
+            text-indent: 3rem;
+            width: 55rem;
             background-color: rgba(240, 248, 255, 0.815);
             margin: auto;
             border-radius: 2.5rem;
