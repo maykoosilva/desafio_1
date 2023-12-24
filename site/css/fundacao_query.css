@@ -13,326 +13,138 @@
 
         section:nth-of-type(1)
         {
-            margin-top: 6rem;
-            background-image: url(../img/site/anjo.jpg);
             background-position: center center;
-            height: calc(100vh - 6rem);
         }
 
         #titulo
         {
-            height: calc(100vh - 6rem);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: aliceblue;
             font-size: 1rem;
             letter-spacing: 1rem;
-            backdrop-filter: blur(0.5rem);
         }
 
         section:nth-of-type(2)
         {
-            background-image: url(../img/site/sala.jpg);
             background-position: center;
-            height: calc(100vh - 6rem);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        section:nth-of-type(3)
-        {
-            background-image: url(../img/site/cientista.jpg);
-            height: calc(100vh - 6rem);
-            display: flex;
-            align-items: center;
-            justify-content: center;
         }
 
         section:nth-of-type(4)
         {
-            background-image: url(../img/site/prisao.jpg);
             background-position: center;
-            height: calc(100vh - 6rem);
-            display: flex;
-            align-items: center;
-            justify-content: center;
         }
 
         section:nth-of-type(5)
         {
-            background-image: url(../img/site/dark.jpg);
             background-position: center;
-            height: calc(100vh - 6rem);
-            display: flex;
-            align-items: center;
-            justify-content: center;
         }
 
         p
         {
-            background-color: rgba(240, 248, 255, 0.753);
             width: 26rem;
-            font-size: 1.6rem;
-            text-align: justify;
-            text-indent: 3rem;
-            line-height: 3rem;
-            color: black;
-            padding: 1rem;
-            border-radius: 2.5rem;
         }
     }
 
 @media screen and (min-width: 360px) and (max-width: 768px)
     {
-        section
-        {
-            height: 30rem;
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            
-        }
-
         section:nth-of-type(1)
         {
-            margin-top: 6rem;
-            background-image: url(../img/site/anjo.jpg);
             background-position: center center;
-            height: calc(100vh - 6rem);
         }
 
         #titulo
         {
-            height: calc(100vh - 6rem);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: aliceblue;
             font-size: 1.5rem;
             letter-spacing: 1rem;
-            backdrop-filter: blur(0.5rem);
         }
 
         section:nth-of-type(2)
         {
-            background-image: url(../img/site/sala.jpg);
             background-position: center;
-            height: calc(100vh - 6rem);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        section:nth-of-type(3)
-        {
-            background-image: url(../img/site/cientista.jpg);
-            height: calc(100vh - 6rem);
-            display: flex;
-            align-items: center;
-            justify-content: center;
         }
 
         section:nth-of-type(4)
         {
-            background-image: url(../img/site/prisao.jpg);
             background-position: center;
-            height: calc(100vh - 6rem);
-            display: flex;
-            align-items: center;
-            justify-content: center;
         }
 
         section:nth-of-type(5)
         {
-            background-image: url(../img/site/dark.jpg);
             background-position: center;
-            height: calc(100vh - 6rem);
-            display: flex;
-            align-items: center;
-            justify-content: center;
         }
 
         p
         {
-            background-color: rgba(240, 248, 255, 0.753);
             width: 35rem;
             font-size: 1.6rem;
-            text-align: justify;
-            text-indent: 3rem;
-            line-height: 3rem;
-            color: black;
-            padding: 1rem;
-            border-radius: 2.5rem;
         }
 
     }
 
 @media screen and (min-width: 769px) and (max-width: 1024px)
     {
-        section
-        {
-            height: 30rem;
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            
-        }
-
         section:nth-of-type(1)
         {
-            margin-top: 6rem;
-            background-image: url(../img/site/anjo.jpg);
             background-position: center center;
-            height: calc(100vh - 6rem);
         }
 
         #titulo
         {
-            height: calc(100vh - 6rem);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: aliceblue;
             font-size: 1.5rem;
             letter-spacing: 1rem;
-            backdrop-filter: blur(0.5rem);
         }
 
         section:nth-of-type(2)
         {
-            background-image: url(../img/site/sala.jpg);
             background-position: center;
-            height: calc(100vh - 6rem);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        section:nth-of-type(3)
-        {
-            background-image: url(../img/site/cientista.jpg);
-            height: calc(100vh - 6rem);
-            display: flex;
-            align-items: center;
-            justify-content: center;
         }
 
         section:nth-of-type(4)
         {
-            background-image: url(../img/site/prisao.jpg);
             background-position: center;
-            height: calc(100vh - 6rem);
-            display: flex;
-            align-items: center;
-            justify-content: center;
         }
 
         section:nth-of-type(5)
         {
-            background-image: url(../img/site/dark.jpg);
             background-position: center;
-            height: calc(100vh - 6rem);
-            display: flex;
-            align-items: center;
-            justify-content: center;
         }
 
         p
         {
-            background-color: rgba(240, 248, 255, 0.753);
             width: 55rem;
             font-size: 1.8rem;
-            text-align: justify;
-            text-indent: 3rem;
-            line-height: 3rem;
-            color: black;
-            padding: 1rem;
-            border-radius: 2.5rem;
         }   
     }
 
 @media screen and (orientation:landscape)
     {
-        section
-        {
-            height: 30rem;
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            
-        }
-
         section:nth-of-type(1)
         {
-            margin-top: 6rem;
-            background-image: url(../img/site/anjo.jpg);
             background-position: center center;
-            height: calc(100vh - 6rem);
         }
 
         #titulo
         {
-            height: calc(100vh - 6rem);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: aliceblue;
             font-size: 1.5rem;
             letter-spacing: 1rem;
-            backdrop-filter: blur(0.5rem);
         }
 
         section:nth-of-type(2)
         {
-            background-image: url(../img/site/sala.jpg);
             background-position: center;
-            height: calc(100vh - 6rem);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        section:nth-of-type(3)
-        {
-            background-image: url(../img/site/cientista.jpg);
-            height: calc(100vh - 6rem);
-            display: flex;
-            align-items: center;
-            justify-content: center;
         }
 
         section:nth-of-type(4)
         {
-            background-image: url(../img/site/prisao.jpg);
             background-position: center;
-            height: calc(100vh - 6rem);
-            display: flex;
-            align-items: center;
-            justify-content: center;
         }
 
         section:nth-of-type(5)
         {
-            background-image: url(../img/site/dark.jpg);
             background-position: center;
-            height: calc(100vh - 6rem);
-            display: flex;
-            align-items: center;
-            justify-content: center;
         }
 
         p
         {
-            background-color: rgba(240, 248, 255, 0.753);
             width: 60rem;
             font-size: 1.6rem;
-            text-align: justify;
-            text-indent: 3rem;
-            line-height: 3rem;
-            color: black;
-            padding: 1rem;
-            border-radius: 2.5rem;
         }
     }
