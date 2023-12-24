@@ -1,5 +1,49 @@
 @charset "UTF-8";
 
+@media screen and (min-width: 280px) and (max-width: 359px)
+    {
+        .area-text-right
+        {
+            width: 26rem;
+            height: 44rem;
+            background-color: #f0f8ffa6;
+            position: relative;
+            top: 1rem;
+            left: calc(100vw - 27rem);
+            padding: 1rem;
+            border-radius: 5rem;
+        }
+        .area-text-left
+        {
+            width: 26rem;
+            height: 44rem;
+            background-color: rgba(240, 248, 255, 0.651);
+            position: relative;
+            top: 1rem;
+            left: 1rem;
+            padding: 1rem;
+            border-radius: 5rem;
+        }
+
+        .btn
+        {
+            margin-top: 2rem;
+        }
+        h1
+        {
+            font-size: 2rem;
+            text-align: center;
+        }
+        p
+        {
+            margin-top: 2rem;
+            text-indent: 2rem;
+            font-size: 1.6rem;
+            line-height: 2.2rem;
+            text-align: justify;
+        }
+    }
+
 @media screen and (min-width: 360px) and (max-width: 413px)
     {
         
@@ -108,4 +152,48 @@
         {
             margin-top: 5rem;
         }
+    }
+
+@media screen and (orientation:landscape) and (max-width: 992px)
+    {
+        .area-text-right
+        {
+            width: 63rem;
+            height: 22rem;
+            background-color: #f0f8ffa6;
+            position: relative;
+            top: 0;
+            left: calc(100vw - 64rem);
+            padding: 1rem;
+            border-radius: 5rem;
+        }
+        .area-text-left
+        {
+            width: 63rem;
+            height: 22rem;
+            background-color: rgba(240, 248, 255, 0.651);
+            position: relative;
+            top: 0;
+            left: 1rem;
+            padding: 1rem;
+            border-radius: 5rem;
+        }
+
+        .btn
+        {
+            margin-top: 0;
+        }
+        h1
+        {
+            font-size: 2rem;
+            text-align: center;
+        }
+        p
+        {
+            margin-top: 1rem;
+            text-indent: 2rem;
+            font-size: 1.6rem;
+            line-height: 2.2rem;
+            text-align: justify;
+        }   
     }

@@ -123,6 +123,11 @@ header
 a
     {
         text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+
+.menu
+    {
         color: aliceblue;
     }
 
@@ -143,6 +148,7 @@ section
         background-repeat: no-repeat;
         background-size: cover;
         background-position: bottom center;
+        height: calc(100vh - 6rem);
     }
 
 #conteudo2
@@ -172,7 +178,7 @@ section
 .area-text-right
     {
         width: 40rem;
-        height: 50rem;
+        height: 40rem;
         background-color: #f0f8ffa6;
         position: relative;
         top: 2rem;
@@ -184,7 +190,7 @@ section
 .area-text-left
     {
         width: 40rem;
-        height: 50rem;
+        height: 40rem;
         background-color: rgba(240, 248, 255, 0.651);
         position: relative;
         top: 2rem;
@@ -211,13 +217,11 @@ p
 .btn
     {
         background-color: rgba(240, 248, 255, 0.521);
-        color: black;
         border-radius: 5rem;
         border: 0.2rem solid #e25a5a;
         width: 12rem;
         height: 5rem;
         margin: auto;
-        margin-top: 8rem;
         transition: all 0.2s ease-in-out;
         font-size: 1.6rem;
         text-decoration: none;
