@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 280px) and (max-width: 359px)
+    {
+        #conteudo
+        {
+            margin-top: 6rem;
+            height: calc(100vh - 6rem);
+            max-width: 100%;
+            background-image: url(../img/site/canada.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        .text
+        {
+            width: 27rem;
+            height: auto;
+            background-color: rgba(240, 248, 255, 0.671);
+            padding: 1rem;
+            border-radius: 2.5rem;
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            box-shadow: 1rem 1rem 1.5rem rgba(0, 0, 0, 0.644);
+        }
+        p
+        {
+            text-align: justify;
+            text-indent: 0.2rem;
+            font-size: 1.6rem;
+            line-height: 1.5rem;
+            margin-bottom: 1rem;
+        }
+    }
+
+@media screen and (min-width: 360px) and (max-width: 413px)
+    {
+        #conteudo
+        {
+            margin-top: 6rem;
+            height: calc(100vh - 6rem);
+            max-width: 100%;
+            background-image: url(../img/site/canada.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        .text
+        {
+            width: 27rem;
+            height: auto;
+            background-color: rgba(240, 248, 255, 0.671);
+            padding: 1rem;
+            border-radius: 2.5rem;
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            box-shadow: 1rem 1rem 1.5rem rgba(0, 0, 0, 0.644);
+        }
+        p
+        {
+            text-align: justify;
+            text-indent: 0.2rem;
+            font-size: 1.6rem;
+            line-height: 1.5rem;
+            margin-bottom: 1rem;
+        }   
+    }
+
+@media screen and (min-width:414px) and (max-width:767px)
+    {
+        
+    }
+
+@media screen and (min-width:768px) and (max-width:992px)
+    {
+        
+    }
+
+@media screen and (orientation:landscape) and (max-width: 992px)
+    {
+        #conteudo
+        {
+            margin-top: 6rem;
+            height: calc(100vh - 6rem);
+            max-width: 100%;
+            background-image: url(../img/site/canada.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        .text
+        {
+            width: 60rem;
+            height: auto;
+            background-color: rgba(240, 248, 255, 0.671);
+            padding: 1rem;
+            border-radius: 2.5rem;
+            box-shadow: 1rem 1rem 1.5rem rgba(0, 0, 0, 0.644);
+            position: relative;
+            top: 28rem;
+        }
+        p
+        {
+            text-align: justify;
+            text-indent: 0.2rem;
+            font-size: 1.6rem;
+            line-height: 1.5rem;
+            margin-bottom: 1rem;
+        }
+    }

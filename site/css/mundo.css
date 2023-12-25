@@ -15,7 +15,6 @@
 html
     {
         height: 100vh;
-        width: 100vw;
     }
 
 body
@@ -134,106 +133,34 @@ a
         color: aliceblue;
     }
 
-section
+#conteudo
     {
-        height: 100vh;
-        background-color: blueviolet;
-        scroll-snap-align: start;
-        position: sticky;
-        top: 0;
-        left: 0;
-    }
-
-#conteudo1
-    {
-        
-        background-image: url(../img/site/halloween_pumpk.jpg);
+        margin-top: 6rem;
+        height: calc(100vh - 6rem);
+        max-width: 100%;
+        background-image: url(../img/site/canada.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: bottom center;
     }
 
-#conteudo2
+.text
     {
-        background-image: url(../img/site/Absolute_Reality_v16_The_Os_3_Irmos_da_Morte_feared_and_revere_0.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-    }
-
-/*#conteudo3
-    {
-        background-image: url(../img/site/pexels-gotta-be-worth-it-5210148.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: bottom center;
-    }
-
-#conteudo4
-    {
-        background-image: url(../img/site/1900s-style-shot-of-american-lumberjacks-and-a-giant-yeti-psychadelic-hallucinating-128k-resoluti-807163791\ -\ Copia.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: top center;
-    }
-*/
-.area-text-right
-    {
-        width: 40rem;
-        height: 40rem;
-        background-color: #f0f8ffa6;
-        position: relative;
-        top: 2rem;
-        left: calc(100vw - 43rem);
+        width: 60rem;
+        background-color: rgba(240, 248, 255, 0.671);
         padding: 1rem;
-        border-radius: 5rem;
-    }
-
-.area-text-left
-    {
-        width: 40rem;
-        height: 40rem;
-        background-color: rgba(240, 248, 255, 0.651);
+        border-radius: 2.5rem;
         position: relative;
-        top: 2rem;
-        left: 1rem;
-        padding: 1rem;
-        border-radius: 5rem;
-    }
-
-h1
-    {
-        font-size: 3.2rem;
-        text-align: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        box-shadow: 1rem 1rem 1.5rem rgba(0, 0, 0, 0.644);
     }
 
 p
     {
-        margin-top: 2rem;
+        text-align: justify;
         text-indent: 3rem;
         font-size: 1.6rem;
-        line-height: 3rem;
-        text-align: justify;
-    }
-
-.btn
-    {
-        background-color: rgba(240, 248, 255, 0.521);
-        border-radius: 5rem;
-        border: 0.2rem solid #e25a5a;
-        width: 12rem;
-        height: 5rem;
-        margin: auto;
-        transition: all 0.2s ease-in-out;
-        font-size: 1.6rem;
-        text-decoration: none;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-.btn:hover
-    {
-        box-shadow: 0 0 1.5rem #e25a5a;
-        text-shadow: 0 0 1.5rem #e25a5a;
+        line-height: 2rem;
+        margin-bottom: 2rem;
     }
