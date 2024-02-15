@@ -1,0 +1,18 @@
+<h1>A Origem do Halloween</h1>
+<p>O Halloween, também conhecido como Dia das Bruxas, 
+tem suas raízes em uma antiga tradição celta que 
+remonta a mais de 2.000 anos. A origem do Halloween 
+está associada à festividade celta chamada "Samhain" 
+(pronunciado "sow-in"), que marcava o fim do verão e 
+o início do inverno, bem como o início do novo ano celta. 
+Samhain era celebrado em 31 de outubro, o que coincidia com 
+o final da colheita e o início da temporada escura e fria do ano.
+</p>
+
+<h1>Fundação SCP</h1>
+<p>A Fundação SCP é uma entidade secreta designada pelos governos mundiais 
+    para conter e analisar indivíduos, entidades, locais, objetos e fenômenos 
+    anômalos que desafiam as leis naturais, geralmente referidos como SCPs. 
+    Esses SCPs, se não mantidos sob controle, representam ameaças à segurança 
+    humana ou, no mínimo, à perceção de realidade e normalidade pela humanidade.
+</p>

@@ -58,17 +58,16 @@ header
 
 #menu-mobile
     {
-        background-color: rgba(0, 0, 0, 0.63);
+        background-color: rgba(0, 0, 0, 0.637);
         backdrop-filter: blur(1rem);
-        position: absolute;
-        top: 0;
-        left: 0;
-        margin-top: 6rem;
         width: 100vw;
         height: 0;
+        position: absolute;
+        top: 6rem;
+        left: 0;
         visibility: hidden;
-        transition: 0.5s;
         overflow: hidden;
+        transition: 0.5s;
     }
 
 #menu-mobile.abrir
@@ -79,30 +78,13 @@ header
 
 #menu-mobile ul
     {
-        list-style: none;
+        height: calc(100vh - 6rem);
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-        height: 100vh;
-        margin-top: 2rem;
-    }
-
-#menu-mobile li
-    {
-        color:aliceblue;
-        border-bottom: 0.2rem aliceblue solid;
+        justify-content:space-around;
         text-align: center;
-        width: 15.5rem;
-        padding-bottom: 0.5rem;
     }
-
-#menu-mobile li:hover
-    {
-        color: #e08720;
-        border-bottom: 0.2rem #e08720 solid;
-    }
-
+    
 a
     {
         text-decoration: none;

@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@200&family=Nanum+Myeongjo&display=swap');
+
 *
     {
         margin: 0;
@@ -9,231 +11,144 @@
 
 :root
     {
-        font-size: 62.5%;
-    } 
-
-html
-    {
-        height: 100vh;
-        width: 100vw;
+        font-size: 62.5%
     }
+
+
 
 body
     {
-        overflow: hidden;
+        height: 100vh;
     }
 
 header
     {
         background-color: black;
-        font-size: 1.6rem;
+        box-shadow: 0rem 0rem 1rem rgba(35, 222, 228, 0.644);
         height: 6rem;
         display: flex;
         justify-content: space-around;
         align-items: center;
-        box-shadow: 0.2rem 0.2rem 1.5rem black;
-        position: fixed;  /* Adicione esta linha para tornar o header fixo */
-        top: 0;          /* Posicione o header no topo da tela */
-        left: 0;
-        width: 100%;     /* Garanta que a largura seja de 100% */
-        z-index: 1000; 
+        position: relative;
     }
 
-#logo
-    {
-        border-radius: 1rem;
-    }
-
-#logo-titulo
+header > p
     {
         color: aliceblue;
-        font-size: 1.8rem;
+        font-size: 1.5rem;
+    }
+    
+#logo
+    {
+        width: 4rem;
     }
 
 .material-symbols-outlined
     {
         color: aliceblue;
         cursor: pointer;
-        padding: 1rem;
-    }
-
-.material-symbols-outlined:hover
-    {
-        color: #e08720;
     }
 
 #menu-mobile
     {
-        background-color: rgba(0, 0, 0, 0.63);
+        background-color: rgba(0, 0, 0, 0.637);
         backdrop-filter: blur(1rem);
-        position: absolute;
-        top: 0;
-        left: 0;
-        margin-top: 6rem;
         width: 100vw;
         height: 0;
+        position: absolute;
+        top: 6rem;
+        left: 0;
         visibility: hidden;
-        transition: 0.5s;
         overflow: hidden;
-    }
-
-#menu-mobile.abrir
-    {
-        visibility: visible;
-        height: 100vh;
+        transition: 0.5s;
     }
 
 #menu-mobile ul
     {
-        list-style: none;
+        height: calc(100vh - 6rem);
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-        height: calc(100vh - 20rem);
-        margin-top: 2rem;
-        padding: 1rem;
-        border: 2px yellow solid;
-    }
-
-#menu-mobile li
-    {
-        color:aliceblue;
-        border-bottom: 0.2rem aliceblue solid;
+        justify-content:space-around;
         text-align: center;
-        width: 15.5rem;
-        padding-bottom: 0.5rem;
-        border: 2px red solid;
     }
 
-#menu-mobile li:hover
-    {
-        color: #e08720;
-        border-bottom: 0.2rem #e08720 solid;
-    }
-
-#interface
-    {
-        min-height: 100vh;
-        margin-top: 6rem;
-        height: 100vh;
-        scroll-snap-type: y mandatory;
-        overflow: scroll;
-        overflow-x: hidden;
-    }
-
-a
-    {
-        display: block;
-        text-decoration: none;
-        color: rgb(0, 0, 0);
-    }
-
-.menu
+#menu-mobile ul > a
     {
         color: aliceblue;
-    }
-
-section
-    {
-        height: 100vh;
-        background-color: blueviolet;
-        scroll-snap-align: start;
-        position: sticky;
-        top: 0;
-        left: 0;
-    }
-
-#conteudo1
-    {
-        
-        background-image: url(../img/site/halloween_pumpk.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: bottom center;
-    }
-
-#conteudo2
-    {
-        background-image: url(../img/site/Absolute_Reality_v16_The_Os_3_Irmos_da_Morte_feared_and_revere_0.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-    }
-
-/*#conteudo3
-    {
-        background-image: url(../img/site/pexels-gotta-be-worth-it-5210148.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: bottom center;
-    }
-
-#conteudo4
-    {
-        background-image: url(../img/site/1900s-style-shot-of-american-lumberjacks-and-a-giant-yeti-psychadelic-hallucinating-128k-resoluti-807163791\ -\ Copia.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: top center;
-    }
-*/
-.area-text-right
-    {
-        width: 40rem;
-        height: 40rem;
-        background-color: #f0f8ffa6;
-        position: relative;
-        top: 2rem;
-        left: calc(100vw - 43rem);
-        padding: 1rem;
-        border-radius: 5rem;
-    }
-
-.area-text-left
-    {
-        width: 40rem;
-        height: 40rem;
-        background-color: rgba(240, 248, 255, 0.651);
-        position: relative;
-        top: 2rem;
-        left: 1rem;
-        padding: 1rem;
-        border-radius: 5rem;
-    }
-
-h1
-    {
-        font-size: 3.2rem;
-        text-align: center;
-    }
-
-p
-    {
-        margin-top: 2rem;
-        text-indent: 3rem;
-        font-size: 1.6rem;
-        line-height: 3rem;
-        text-align: justify;
-    }
-
-.btn
-    {
-        background-color: rgba(240, 248, 255, 0.521);
-        border-radius: 5rem;
-        border: 0.2rem solid #e25a5a;
-        width: 12rem;
-        height: 5rem;
-        margin: auto;
-        transition: all 0.2s ease-in-out;
-        font-size: 1.6rem;
+        font-size: 1.5rem;
         text-decoration: none;
+        padding: 1rem;
+    }
+
+#menu-mobile.abrir
+    {
+        visibility: visible;   
+        height: calc(100vh - 6rem);
+    }
+
+#img-fundo
+    {
+        background-image: url(../img/site/anjo.jpg);
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-size: cover;
+        height: calc(100vh - 6rem);
+    }
+
+main
+    {
+        height: calc(100vh - 6rem);
+        background-color: rgba(0, 0, 0, 0.637);
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-.btn:hover
+.area-text
     {
-        box-shadow: 0 0 1.5rem #e25a5a;
-        text-shadow: 0 0 1.5rem #e25a5a;
+        background-color: rgba(0, 0, 0, 0.651);
+        box-shadow: 0rem 0rem 1.5rem rgba(255, 255, 255, 0.322);
+        color: aliceblue;
+        width: 24rem;
+        height: 15rem;
+        padding: 0.5rem;
     }
+
+.area-text h1
+    {
+        text-align: center;
+        padding-bottom: 0.5rem;
+    }
+
+.area-text p
+    {
+        color: aliceblue;
+        font-size: 1.4rem;
+        text-indent: 1rem;
+        text-align: justify;
+        font-family: 'Kalnia', serif;
+        line-height: 2rem;
+    }
+
+#area-text-oculto
+    {
+        background-color: rgba(0, 0, 0, 0.651);
+        box-shadow: 0rem 0rem 1.5rem rgba(255, 255, 255, 0.322);
+        color: aliceblue;
+        width: 24rem;
+        height: 15rem;
+        padding: 0.5rem;
+        display: none;
+    }
+
+#area-text-oculto p
+    {
+        color: aliceblue;
+        font-size: 1.4rem;
+        text-indent: 1rem;
+        text-align: justify;
+        font-family: 'Kalnia', serif;
+        line-height: 2rem;
+    }
+
